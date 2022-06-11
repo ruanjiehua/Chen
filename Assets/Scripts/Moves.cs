@@ -16,10 +16,8 @@ public class Moves : MonoBehaviour
         {"Screenshare", false},
         {"Zamm", false},
     };
-    
    public Dictionary<string, int> moveDamage = new() 
     {
-        //true = phy, false = magic
         {"Punch", 5},
         {"Kick", 10},
         {"Bite", 2},
@@ -31,7 +29,6 @@ public class Moves : MonoBehaviour
     };
     public Dictionary<string, int> moveManaCost = new() 
     {
-        //true = phy, false = magic
         {"Punch", 20},
         {"Kick", 30},
         {"Bite", 40},
@@ -41,14 +38,4 @@ public class Moves : MonoBehaviour
         {"Screenshare", 50},
         {"Zamm", 80},
     };
-    void Start()
-    {
-        
-    }
-
-   
-    void Update()
-    {
-        
-    }
 }

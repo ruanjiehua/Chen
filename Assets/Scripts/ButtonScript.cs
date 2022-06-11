@@ -1,24 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ButtonScript : MonoBehaviour
 {
-  TurnManager turnManager;
-  PlayerAttack playerAttack;
-  Player player;
-  public GameObject ability1;
+    TurnManager turnManager;
+    Player player;
+    Enemy enemy;
+    [SerializeField] GameObject[] abilities;
 
     void Start()
     {
         player = FindObjectOfType<Player>();
         turnManager = FindObjectOfType<TurnManager>();
-        playerAttack = FindObjectOfType<PlayerAttack>();
-        ability1 = GameObject.Find("Ability");
-        ability1.name = player.moveSet[0];
+        enemy = FindObjectOfType<Enemy>();
+        for (int i = 0; i < abilities.Length; i++)
+        {
+            abilities[i].name = player.moveSet[i];
+            abilities[i].GetComponent<TextMeshProUGUI>().text = player.moveSet[i];
+        }
     }
     
-
     void Update()
     {
         
@@ -26,11 +29,11 @@ public class ButtonScript : MonoBehaviour
     
     private void OnMouseDown() 
     {
-        if (turnManager.playerTurn)
+        if (turnManager.playerTurn && enemy.brainCells > 0)
         {
-            playerAttack.NoCritAttack(gameObject.name);
-            turnManager.GiveTurnToEnemy();
-            print("I attack !!!!!!!");
+            player.PlayerAttack(gameObject.name);
+            turnManager.EndPlayerTurn();
+            enemy.EnemyAttack();
         }
-    }
+    }   
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Ability
+  - CombatText
   layers:
   - Default
   - TransparentFX

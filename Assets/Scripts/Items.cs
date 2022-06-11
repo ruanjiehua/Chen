@@ -10,7 +10,6 @@ public class Items : MonoBehaviour
         
     }
 
-    
     void Update()
     {
         
