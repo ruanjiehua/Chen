@@ -14,7 +14,8 @@ public class Moves : MonoBehaviour
         {"Cum", true},
         {"Dab", false},
         {"Screenshare", false},
-        {"Zamm", false},
+        {"Zamn", false},
+        {"Pet Rat Gummy", false},
     };
    public Dictionary<string, int> moveDamage = new() 
     {
@@ -25,7 +26,7 @@ public class Moves : MonoBehaviour
         {"Cum", 4},
         {"Dab", 5},
         {"Screenshare", 6},
-        {"Zamm", 7},
+        {"Zamn", 7},
     };
     public Dictionary<string, int> moveManaCost = new() 
     {
@@ -36,6 +37,6 @@ public class Moves : MonoBehaviour
         {"Cum", 1},
         {"Dab", 40},
         {"Screenshare", 50},
-        {"Zamm", 80},
+        {"Zamn", 80},
     };
 }

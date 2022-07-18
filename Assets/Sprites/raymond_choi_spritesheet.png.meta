@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 72f4d4a97d75a9c45941afc14636f85c
+guid: e25fe73cd59798e4a8053d686b7b278c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jeff_all_spritesheet_0
+      name: raymond_choi_spritesheet_0
       rect:
         serializedVersion: 2
         x: 23
         y: 72
         width: 15
-        height: 20
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d48c0a2686bec04a9609ef330b4cf09
-      internalID: -1902635399
+      spriteID: 9983468fff3837e40a99687df937bfae
+      internalID: 560390965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jeff_all_spritesheet_1
+      name: raymond_choi_spritesheet_1
       rect:
         serializedVersion: 2
         x: 40
         y: 71
         width: 14
-        height: 21
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed1f758a1e2d05744a95a3a6df7a13f0
-      internalID: -1992286034
+      spriteID: 1e5c62de94c16464381a2845e82f5007
+      internalID: -899555867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jeff_all_spritesheet_2
+      name: raymond_choi_spritesheet_2
       rect:
         serializedVersion: 2
         x: 58
         y: 71
         width: 14
-        height: 21
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe0a49526f79cf7438dde41f4260fcbc
-      internalID: 952353294
+      spriteID: f7af8289ca259aa428d3655b0c3d6209
+      internalID: -324467235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jeff_all_spritesheet_3
+      name: raymond_choi_spritesheet_3
       rect:
         serializedVersion: 2
         x: 23
         y: 48
         width: 15
-        height: 20
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9977cc89c1719f54f9cfbe3c3dee0f59
-      internalID: 1955947777
+      spriteID: eabe81496e3d1df4dafc8f001bb1b57f
+      internalID: -1779217656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jeff_all_spritesheet_4
+      name: raymond_choi_spritesheet_4
       rect:
         serializedVersion: 2
         x: 40
         y: 47
         width: 14
-        height: 21
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fa85b941a69feb44bcfd84dee878dbd
-      internalID: 1809627886
+      spriteID: 6561a6021b4112e44bdbc8e443fe058c
+      internalID: -977253217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jeff_all_spritesheet_5
+      name: raymond_choi_spritesheet_5
       rect:
         serializedVersion: 2
         x: 58
         y: 47
         width: 14
-        height: 21
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e684b1fabffe6645abb1f78d095efe1
-      internalID: -859170427
+      spriteID: 1bdfbb83ff7731d438e91cf24f53af69
+      internalID: -1775149007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jeff_all_spritesheet_6
+      name: raymond_choi_spritesheet_6
       rect:
         serializedVersion: 2
         x: 24
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9879b70431b94eb4badff1ebc26ba567
-      internalID: -1845434515
+      spriteID: 12c6effeecf637f4aaa180a642c9b8f5
+      internalID: -1785437587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jeff_all_spritesheet_7
+      name: raymond_choi_spritesheet_7
       rect:
         serializedVersion: 2
         x: 41
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb7028a89b1d4304e83e1340cbee9226
-      internalID: -1818635067
+      spriteID: 57588ee83386c294c8ab332b3c0ae514
+      internalID: -389052131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jeff_all_spritesheet_8
+      name: raymond_choi_spritesheet_8
       rect:
         serializedVersion: 2
         x: 58
@@ -286,8 +286,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59b310e1f506d2747b6da8a34aac61a0
-      internalID: 62062185
+      spriteID: 06dfe50ed9429ac418684a40b60647c6
+      internalID: 950786067
       vertices: []
       indices: 
       edges: []
@@ -303,15 +303,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      jeff_all_spritesheet_0: -1902635399
-      jeff_all_spritesheet_6: -1845434515
-      jeff_all_spritesheet_4: 1809627886
-      jeff_all_spritesheet_1: -1992286034
-      jeff_all_spritesheet_5: -859170427
-      jeff_all_spritesheet_2: 952353294
-      jeff_all_spritesheet_8: 62062185
-      jeff_all_spritesheet_3: 1955947777
-      jeff_all_spritesheet_7: -1818635067
+      raymond_choi_spritesheet_2: -324467235
+      raymond_choi_spritesheet_5: -1775149007
+      raymond_choi_spritesheet_1: -899555867
+      raymond_choi_spritesheet_8: 950786067
+      raymond_choi_spritesheet_6: -1785437587
+      raymond_choi_spritesheet_4: -977253217
+      raymond_choi_spritesheet_0: 560390965
+      raymond_choi_spritesheet_7: -389052131
+      raymond_choi_spritesheet_3: -1779217656
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
